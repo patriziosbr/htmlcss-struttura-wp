@@ -45,20 +45,20 @@ footer {
 }
 .bar {
     height: 85px; /*debug*/
-    margin-bottom: 25px ;
+    margin-bottom: 20px ;
 }
 .float-l {
     float: left;
 }
 .lft {
-    width: 24%;
+    width: 25%;
 }   
 .center {
-    width: 50%;
-    margin: 0 1%;
+    width: calc(50% - 40px);
+    margin: 0 20px;
 }
 .rgt{
-    width: 24%;
+    width: 25%;
 }
 footer {
     margin-top: 10px;
