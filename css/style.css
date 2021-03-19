@@ -1,8 +1,11 @@
 /* debug */
-.nav {
+#logo-container{
+    height: 100px;
+}
+/* .nav {
     height: 100px;
     background-color: #E579E6;
-}
+} */
 .hero {
     height: 500px;
     background-color: #E1D67A;
@@ -31,6 +34,17 @@ footer {
     content: "";
     display: table;
     clear: both;
+}
+.list-inline > li {
+    list-style: none;
+    display: inline-block;
+    padding: 16px 8px 16px 0;
+}
+.list-inline a {
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 /*start*/
 .container {
