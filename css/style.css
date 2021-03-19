@@ -12,7 +12,7 @@ main {
     background-color: #0087FF;
 }
 aside,
-section,
+.center,
 .bar {
     height: 540px;
     background-color: #ABCFE7;
@@ -47,18 +47,18 @@ footer {
     height: 85px; /*debug*/
     margin-bottom: 25px ;
 }
-.lft {
-    width: 24%;
+.float-l {
     float: left;
 }
-section {
+.lft {
+    width: 24%;
+}   
+.center {
     width: 50%;
     margin: 0 1%;
-    float: left;
 }
 .rgt{
     width: 24%;
-    float: left;
 }
 footer {
     margin-top: 10px;
